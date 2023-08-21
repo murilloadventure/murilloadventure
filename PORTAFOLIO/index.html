@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>MURILLO ADVENTURE</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu HEADER-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">MURILLO ADVENTURE</a>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE NOSOTROS</a></li>
+                   
+                    
+                    <li><a href="#portfolio" onclick="seleccionar()">PLANES</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+               <i class="fa-solid fa-bars"></i> 
+            </div>
+
+        </header>
+    </div>
+
+    <!--Primera seccion-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./Imagenes/logo1.PNG" alt="">
+            </div>
+            <h1>MURILLO ADVENTURE</h1>
+            <h2>Ingeniero de sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/Murilloadventure" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/murillo_adventure/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/3178426506" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                
+                
+            </div>
+        </div>
+    </section>
+
+     <!--Segunda seccion---Sobre mi-->
+    
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Nosotros</h2>
+            <p><span>Hola, soy Bryand Alejandro Pacheco Peña,</span> Ingeniero de sistemas. Desde que descubrí el mundo de la programación me he dedicado a profundizar mis conocimientos en 
+            programación, bases de datos, arquitectura de software, entre otros en el área. Mi pasión por el desarrollo web me ha llevado a enfocar mi carrera en esta área, donde he trabajado en diferentes proyectos para aplicar mis conocimientos
+        y mejorar mis capacidades.  </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        
+                        <li>
+                            <strong>Teléfono</strong>
+                            3132493196
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                           bapacheco@ut.edu.co
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.pagina.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            La Arada Tolima
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Web</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    
+    
+   
+
+    <!--Quinta  seccion---Portfolio-->
+    <section id="portfolio" class="portfolio">
+       
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            
+            
+            <div class="pdf-button-container">
+                <a href="https://drive.google.com/file/d/1XFJuJhOo5abpUlB1LAOHsqjtm79tfbWn/view?usp=drive_linkt" target="_blank" class="pdf-button">TARIFAS FLEXIBLES</a>
+                <a href="Tarifas flexibles .pdf" download>
+                    <button>Descargar PDF</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1XFJuJhOo5abpUlB1LAOHsqjtm79tfbWn/view?usp=drive_linkt" target="_blank" class="pdf-button">TERMAL LA CABAÑA</a>
+                <a href="Termal La Cabaña•.pdf" download>
+                    <button>Descargar PDF</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1XFJuJhOo5abpUlB1LAOHsqjtm79tfbWn/view?usp=drive_linkt" target="_blank" class="pdf-button">TERMAL EL SIFON</a>
+                <a href="Termal El Sifón.pdf" download>
+                    <button>Descargar PDF</button>
+                </a>
+              
+            </div>
+                
+                
+               
+               
+        </div>
+    </section>
+
+    <!--Sexta  seccion---Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tù nombre">
+                    <input type="text" placeholder="Nùmero telefònico">
+                    <input type="text" placeholder="Direcciòn de correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="Imagenes/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-mobile"></i>
+                               Llamanos: 2384-4343443
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                               Email: bapacheco@ut.edu.co
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-arrows-up-to-line"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/Murilloadventure" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/murillo_adventure/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/3178426506"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
