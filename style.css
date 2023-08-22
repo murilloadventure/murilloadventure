@@ -71,11 +71,10 @@ z-index: 99;
 /*PRIMERA SECCION*/
 
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(Imagenes/murillo2.webp);
+    background-image: url('Imagenes/unir1.png');
     background-size: cover;
     height: 100vh;
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
 }
