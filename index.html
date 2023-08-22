@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>MURILLO ADVENTURE</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu HEADER-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">MURILLO ADVENTURE</a>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE NOSOTROS</a></li>
+                   
+                    
+                    <li><a href="#portfolio" onclick="seleccionar()">PLANES</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+               <i class="fa-solid fa-bars"></i> 
+            </div>
+
+        </header>
+    </div>
+
+    <!--Primera seccion-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./Imagenes/logo1.PNG" alt="">
+            </div>
+            
+            <h2>Agencia operadora de turismo</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/Murilloadventure" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/murillo_adventure/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/3178426506" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                
+                
+            </div>
+        </div>
+    </section>
+
+     <!--Segunda seccion---Sobre mi-->
+    
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Nosotros</h2>
+           
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3></h3>
+                    <ul class="lista">
+                        
+                        <li>
+                            <strong>Teléfono</strong>
+                            3178426506
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                           murilloadventure@gmail.com
+                        </li>
+                        
+                        
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Agencia de turismo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                
+            </div>
+           
+        </div>
+    </section>
+
+    
+    
+   
+
+    <!--Quinta  seccion---Portfolio-->
+    <section id="portfolio" class="portfolio">
+       
+        <div class="contenido-seccion">
+            <h2>PLANES</h2>
+            
+            
+            <div class="pdf-button-container">
+                <a href="https://drive.google.com/file/d/1XFJuJhOo5abpUlB1LAOHsqjtm79tfbWn/view?usp=drive_linkt" target="_blank" class="pdf-button">TARIFAS FLEXIBLES</a>
+                <a href="Tarifas flexibles .pdf" download>
+                    <button>Descargar PDF</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1XFJuJhOo5abpUlB1LAOHsqjtm79tfbWn/view?usp=drive_linkt" target="_blank" class="pdf-button">TERMAL LA CABAÑA</a>
+                <a href="Termal La Cabaña•.pdf" download>
+                    <button>Descargar PDF</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1XFJuJhOo5abpUlB1LAOHsqjtm79tfbWn/view?usp=drive_linkt" target="_blank" class="pdf-button">TERMAL EL SIFON</a>
+                <a href="Termal El Sifón.pdf" download>
+                    <button>Descargar PDF</button>
+                </a>
+              
+            </div>
+                
+                
+               
+               
+        </div>
+    </section>
+
+    <!--Sexta  seccion---Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>UBICACION</h2>
+            
+                <!--Formulario-->
+               
+                    <img src="Imagenes/ubicacion.PNG" alt="">
+                   
+                
+                
+                
+        </div>
+    </section>
+
+
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-arrows-up-to-line"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/Murilloadventure" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/murillo_adventure/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/3178426506"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
