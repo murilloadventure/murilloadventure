@@ -293,10 +293,10 @@ z-index: 99;
     height: 100vh;
 }
 
-.pdf-button {
+.inf-button {
     margin: 10px;
     padding: 10px 10px;
-    background-color: #1dccbd;
+    background-color: #5472b4;
     color: black;
     font-weight: bold;
     border: none;
