@@ -296,7 +296,7 @@ z-index: 99;
 .inf-button {
     margin: 10px;
     padding: 10px 10px;
-    background-color: #5472b4;
+    background-color: #0d7ea4;
     color: black;
     font-weight: bold;
     border: none;
@@ -306,22 +306,22 @@ z-index: 99;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 250px; /* Ajusta el ancho para que todos los botones tengan el mismo tamaño */
+    width: 310px; /* Ajusta el ancho para que todos los botones tengan el mismo tamaño */
 }
 .pdf-button {
     margin: 10px;
     padding: 10px 10px;
-    background-color: #1dccbd;
+   background-color: #0cafa2;
     color: black;
     font-weight: bold;
     border: none;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 250px; /* Ajusta el ancho para que todos los botones tengan el mismo tamaño */
+    width: 310px; /* Ajusta el ancho para que todos los botones tengan el mismo tamaño */
 }
 /* BOTON PARA DESCARGAR PDFs*/
 .btn-descargarpdf{
@@ -331,7 +331,7 @@ z-index: 99;
     color: rgb(16, 15, 15);
     border: none;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     cursor: pointer;
 }
