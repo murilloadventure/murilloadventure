@@ -41,6 +41,7 @@ z-index: 99;
 }
 
 .contenedor-header header ul{
+   background-color: #165292;
    display: flex;
    list-style: none; 
 }
